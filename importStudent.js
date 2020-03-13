@@ -14,9 +14,9 @@ getDetails();
 
   
 async function getDetails() {
-    name = await ask('What is your name? ');
-    matricNo = await ask('What is your matric number? ');
-    major = await ask('What is your major? ');
+    name = await ask('Name? ');
+    matricNo = await ask('Matric number? ');
+    major = await ask('Major? ');
     let student = new Student(name, matricNo, major);
     console.log(student.display());
     process.exit();
