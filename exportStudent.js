@@ -15,9 +15,9 @@ class Student {
     `MatricNo: ${major}`;
 
     display = () => {
-        console.log(`NAME: ${this.name}`);
-        console.log(`MATRIC NO: ${this.matricNo}`);
-        console.log(`MAJORING: ${this.major}`);
+        console.log(`Name: ${this.name}`);
+        console.log(`Matric Number: ${this.matricNo}`);
+        console.log(`Major: ${this.major}`);
     }
 }
 
