@@ -18,6 +18,7 @@ class Student {
         console.log(`Name: ${this.name}`);
         console.log(`Matric Number: ${this.matricNo}`);
         console.log(`Major: ${this.major}`);
+        process.exit();
     }
 }
 
