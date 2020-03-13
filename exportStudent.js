@@ -6,13 +6,13 @@ class Student {
     }
     
     Name = (name= this.name) =>
-    `MatricNo: ${name}`;
+    `Name: ${name}`;
 
     MatricNo = (matricNo = this.matricNo) =>
     `MatricNo: ${matricNo}`;
 
     Major = (major = this.major) =>
-    `MatricNo: ${major}`;
+    `Major: ${major}`;
 
     display = () => {
         console.log(`Name: ${this.name}`);
