@@ -3,9 +3,9 @@ const readline = require('readline');
 const rI = readline.createInterface(process.stdin, process.stdout);
 
 
-function ask(myquestion) {
-    return new Promise((userAns) => {
-      rI.question(myquestion, userAns);
+function ask(quest) {
+    return new Promise((ans) => {
+      rI.question(quest, ans);
     });
 }
 
